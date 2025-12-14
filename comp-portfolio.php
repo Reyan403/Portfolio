@@ -139,6 +139,12 @@ include 'includes/header.php';
                         <img src="./img-portfolio/synchroniser.png" alt=""> <p>En cours</p>
                     </div>
                 </a>
+                <a class="laravel" href="">
+                    <img src="./img-portfolio/Laravel.svg.png" alt="">
+                    <div class="status-cours">
+                        <img src="./img-portfolio/synchroniser.png" alt=""> <p>En cours</p>
+                    </div>
+                </a>
             </div>
         </div>
     </section>

@@ -306,7 +306,8 @@ body.dark .copyright{
 
 body.dark .pix,
 body.dark .voltaire,
-body.dark .openclassroom{
+body.dark .openclassroom,
+body.dark .laravel{
     background-color: #333333;
     box-shadow: 0 10px 25px white;
 }
@@ -318,7 +319,8 @@ body.dark .timeline::after{
 
 body.dark .pix:hover,
 body.dark .voltaire:hover,
-body.dark .openclassroom:hover{
+body.dark .openclassroom:hover,
+body.dark .laravel:hover{
     box-shadow: -20px -20px 0px rgb(82, 82, 82);
     transition: 0.5s;
 }
@@ -1617,23 +1619,24 @@ input[type="submit"]:hover {
 }
 
 .list-certif{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     gap: 50px;
 }
 
-.pix, .voltaire, .openclassroom{
+.pix, .voltaire, .openclassroom, .laravel{
     background-color: white;
     border-radius: 20px;
 }
 
-.pix:hover, .voltaire:hover, .openclassroom:hover{
+.pix:hover, .voltaire:hover, .openclassroom:hover, .laravel:hover{
     box-shadow: -20px -20px 0px rgb(82, 82, 82);
     transition: 0.5s;
 }
 
-.pix{
+.pix, .laravel{
     padding: 50px 100px;
 }
 
@@ -1645,12 +1648,8 @@ input[type="submit"]:hover {
     padding: 52px 100px;
 }
 
-.pix img, .voltaire img{
+.pix img, .voltaire img, .openclassroom img, .laravel img{
     width: 250px;
-}
-
-.openclassroom img{
-    width: 200px;
 }
 
 .status-valide, .status-cours{
@@ -1681,7 +1680,7 @@ input[type="submit"]:hover {
     font-weight: 700;
 }
 
-a.pix, a.voltaire, a.openclassroom{
+a.pix, a.voltaire, a.openclassroom, a.laravel{
     text-decoration: none;
     color: black;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 1.05);
@@ -1692,11 +1691,12 @@ a.pix, a.voltaire, a.openclassroom{
     width: 35px;
 }
 
-@media screen and (max-width: 1580px) {
+@media screen and (max-width: 1050px) {
     .list-certif{
-        display: grid;
-    }
+        display: flex;
+        flex-direction: column;
 
+    }
     .certif-container{
         width: 800px;
         margin: 0 auto;
@@ -1709,7 +1709,7 @@ a.pix, a.voltaire, a.openclassroom{
         margin: 0 auto;
     }
 
-    .pix{
+    .pix, .laravel{
         padding: 50px 100px;
     }
     
@@ -1721,12 +1721,8 @@ a.pix, a.voltaire, a.openclassroom{
         padding: 52px 100px;
     }
 
-    .pix img, .voltaire img{
+    .pix img, .voltaire img, .openclassroom img, .laravel img{
         width: 150px;
-    }
-
-    .openclassroom img{
-        width: 200px;
     }
 
     .status-valide img, .status-cours img{
@@ -1736,18 +1732,8 @@ a.pix, a.voltaire, a.openclassroom{
 
 @media screen and (max-width: 428px) {
 
-    .pix{
+    .pix, .laravel, .voltaire, .openclassroom {
         padding: 50px 58px;
-        margin: 0 auto;
-    }
-    
-    .voltaire{
-        padding: 55px 53px;
-        margin: 0 auto; 
-    }
-    
-    .openclassroom{
-        padding: 52px 42px;
         margin: 0 auto;
     }
 }
