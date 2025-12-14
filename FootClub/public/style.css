@@ -1,0 +1,150 @@
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: linear-gradient(135deg, #e0e7ff, #f8fafc);
+    color: #2d3748;
+    margin: 0;
+    padding: 30px;
+}
+
+h1, h2, h3 {
+    color: #1e3a8a;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+a, button {
+    transition: all 0.25s ease;
+}
+
+.team, .list, .opposing_team{
+    margin-top: 80px;
+}
+
+.btn-edit, .btn-add, .btn-delete {
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-add, .btn-edit {
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: #fff;
+}
+
+.btn-add:hover, .btn-edit:hover {
+    background: linear-gradient(135deg, #1d4ed8, #1e3a8a);
+}
+
+.btn-delete {
+    background: linear-gradient(135deg, #dc2626, #b91c1c);
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background: linear-gradient(135deg, #b91c1c, #7f1d1d);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(6px);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    margin-top: 25px;
+}
+
+th, td {
+    padding: 14px 16px;
+    text-align: left;
+}
+
+th {
+    background: linear-gradient(135deg, #2563eb, #1e3a8a);
+    color: white;
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(241, 245, 249, 0.8);
+}
+
+tr:hover {
+    background-color: rgba(219, 234, 254, 0.9);
+}
+
+form {
+    max-width: 480px;
+    margin: 40px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 35px 40px;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(6px);
+}
+
+form div {
+    margin-bottom: 22px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1e3a8a;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #f9fafb;
+    transition: all 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #2563eb;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(37, 99, 235, 0.2);
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(37, 99, 235, 0.25);
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(135deg, #1d4ed8, #1e3a8a);
+    box-shadow: 0 6px 10px rgba(30, 58, 138, 0.3);
+}
+
+p {
+    margin-top: 5px;
+    color: #dc2626;
+    font-size: 14px;
+    font-style: italic;
+}
+

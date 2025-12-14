@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+.menu-button a{
+    font-family: "QuickSand", system-ui;
+    text-decoration: none;
+    font-size: 25px;
+    color: #0b1263;
+    font-weight: 600;
+}
+
+.menu-button select{
+    font-family: "QuickSand", system-ui;
+    border: none;
+    font-size: 25px;
+    color: #0b1263;
+    font-weight: 600;
+}

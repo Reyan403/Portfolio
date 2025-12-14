@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <title>QUIZZ</title>
+
+</head>
+<body>
+    
+    <main>
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Quizz sur le code</h1>
+                    <div class="quiz-header">
+                        <span>Questions</span>
+                        <span class="header-score">Score: 0 / 5</span>
+                    </div>
+
+                    <h2 class="question-text">Que signifie HTML ?</h2>
+
+                    <div class="option-list">
+                        <!--  
+                        <div class="option">
+                            <span>A. Hyper Type Multi Language</span>
+                        </div>
+                        <div class="option">
+                            <span>Hyper Text Multiple Language</span>
+                        </div>
+                        <div class="option">
+                            <span>C. Hyper Text Markup Language</span>
+                        </div>
+                        <div class="option">
+                            <span>D. Home Text Multiple Language</span>
+                        </div>
+                         -->
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 sur 5 Questions</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Résultat du Quizz !</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+
+                        <span class="score-text">Votre score est de 0 sur 5</span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Essayer encore</button>
+                        <button class="goHome-btn">Retourner à l'accueil</button>
+                    </div>
+                </div>
+            </section>
+            <section class="home">
+                <div class="home-content">
+                    <h1>Site de Quizz</h1>
+                    <p>
+                        Bienvenue sur le site Quizz ! Testez vos connaissances et amusez-vous avec nos quiz interactifs. Choisissez une catégorie, répondez aux questions et voyez votre score. C'est parti !
+                    </p>
+                    <button class="start-btn">Commencer le Quizz</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Liste des questions</h2>
+
+        <span class="info">1. Que siginife HTML ?</span>
+        <br>
+        <span class="info">2. Que siginifie CSS ?</span>
+        <br>
+        <span class="info">3. Que siginifie JS ?</span>
+        <br>
+        <span class="info">4. Que siginifie PHP ?</span>
+        <br>
+        <span class="info">5. Que siginifie SQL ?</span>
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Sortir</button>
+            <a href="#" class="info-btn continue-btn">Continuer</a>
+        </div>
+    </div>
+    
+</body>
+
+<script src="question.js"></script>
+<script src="script.js"></script>
+</html>
