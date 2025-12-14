@@ -540,7 +540,7 @@ include 'includes/header.php';
                         </p>
                     </div>
                     <div class="learn-more button-project">
-                        <a href="#">
+                        <a href="https://github.com/Reyan403/Portfolio.git" target="_blank" rel="noopener noreferrer">
                             En savoir plus <img src="./img-portfolio/fleche-droite (6).png" alt="">
                         </a>
                     </div>

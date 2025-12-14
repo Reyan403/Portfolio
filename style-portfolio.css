@@ -231,8 +231,8 @@ header{
 
 .links{
     display: flex;
-    gap: 50px;
-    margin-left: 50px;
+    gap: 40px;
+    justify-content: center;
 }
 
 .btn-toggle {
@@ -364,6 +364,7 @@ body.dark .nav-arrows,
 body.dark .sql,
 body.dark .git-hub,
 body.dark .download,
+body.dark .linkedin,
 body.dark .menuham,
 body.dark .links-copyright {
     filter: invert(1); 
@@ -427,7 +428,7 @@ nav ul li a:hover{
     color: blue;
 }
 
-@media screen and (max-width: 1325px) {
+@media screen and (max-width: 1050px) {
     .menu{
         display: none;
         align-items: center;
@@ -1081,7 +1082,7 @@ body.dark .img-comp img {
     display: none;
 }
 
-.git-hub{
+.git-hub, .linkedin{
     display: inline-block;
     width: 50px;
     height: 50px;
@@ -1094,19 +1095,19 @@ body.dark .img-comp img {
     justify-content: center;
 }
 
-.git-hub img {
+.git-hub img, .linkedin img {
     width: 50px;
     height: 50px;
     object-fit: cover;
     transition: filter 0.3s ease;
 }
 
-.git-hub:hover {
+.git-hub:hover, .linkedin:hover {
     background-color: black;
     transform: scale(1.1);
 }
 
-.git-hub:hover img {
+.git-hub:hover img, .linkedin:hover img {
     filter: brightness(0) invert(1);
 }
 

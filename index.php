@@ -14,6 +14,23 @@ include 'includes/header.php';
                 </p>
             </div>
         </div>
+        <div class="links">
+            <div class="git-hub">
+                <a href="https://github.com/Reyan403" target="_blank" rel="noopener noreferrer">
+                    <img src="./img-portfolio/github (1).png" alt="">
+                </a>
+            </div>
+            <div class="download">
+                <a href="./img-portfolio/CV_Reyan_GHAZZAOUI.pdf" download="CV-Reyan-Ghazzaoui.pdf">
+                    <img src="./img-portfolio/cv (1).png" alt="Télécharger mon CV">
+                </a>
+            </div>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/reyan-ghazzaoui-7a538a249/" target="_blank" rel="noopener noreferrer">
+                    <img src="./img-portfolio/linkedin.png" alt="">
+                </a>
+            </div>
+        </div>
     </section>
 
     <section id="bloc2-accueil">

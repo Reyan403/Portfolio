@@ -29,18 +29,6 @@
                     Contact <img src="./img-portfolio/fleche-droite (6).png">
                 </a>
             </div>
-            <div class="links">
-                <div class="git-hub">
-                    <a href="https://github.com/Reyan403" target="_blank" rel="noopener noreferrer">
-                        <img src="./img-portfolio/github (1).png" alt="">
-                    </a>
-                </div>
-                <div class="download">
-                    <a href="./img-portfolio/CV_Reyan_GHAZZAOUI.pdf" download="CV-Reyan-Ghazzaoui.pdf">
-                        <img src="./img-portfolio/cv (1).png" alt="Télécharger mon CV">
-                    </a>
-                </div>
-            </div>
             <div class="btn-toggle">
             </div>
         </div>
@@ -54,18 +42,6 @@
             <li><a href="./comp-portfolio.php">Compétences</a></li>
             <li><a href="./projet-portfolio.php">Projets</a></li>
             <li><a href="./contact-portfolio.php">Contact</a></li>
-            <div class="links">
-                <div class="git-hub">
-                    <a href="https://github.com/Reyan403">
-                        <img src="./img-portfolio/github (1).png" alt="">
-                    </a>
-                </div>
-                <div class="download">
-                    <a href="./img-portfolio/CV_Reyan_GHAZZAOUI.pdf" download="CV-Reyan-Ghazzaoui.pdf">
-                        <img src="./img-portfolio/cv (1).png" alt="Télécharger mon CV">
-                    </a>
-                </div>
-            </div>
             <li><div class="btn-toggle"></div></li>
         </ul>
     </nav>
