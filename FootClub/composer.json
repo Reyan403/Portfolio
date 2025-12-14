@@ -1,0 +1,21 @@
+{
+    "name": "ghazz/foot-club",
+    "authors": [
+        {
+            "name": "Reyan Ghazzaoui",
+            "email": "ghazzaoui.reyan@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.9",
+        "nesbot/carbon": "^3.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "DAO\\": "src/DAO/",
+            "Model\\": "src/Model/",
+            "Service\\": "src/Service/",
+            "Enumeration\\": "src/Enumeration/"
+        }
+    }
+}
