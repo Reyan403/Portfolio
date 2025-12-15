@@ -58,6 +58,9 @@
             <a href="./img-portfolio/CV_Reyan_GHAZZAOUI.pdf" download="CV-Reyan-Ghazzaoui.pdf">
                 <img src="./img-portfolio/cv (1).png" alt="Télécharger mon CV">
             </a>
+            <a href="https://www.linkedin.com/in/reyan-ghazzaoui-7a538a249/" target="_blank" rel="noopener noreferrer">
+                <img src="./img-portfolio/linkedin.png" alt="">
+            </a>
         </div>
     </section>
 
